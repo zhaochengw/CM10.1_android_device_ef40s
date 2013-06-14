@@ -26,15 +26,20 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 #
+on early-init
+    mkdir /firmware 0771 system system
+    symlink /data/tombstones /tombstones
+
+    mkdir /tombstones 0771 system system
+    wait /dev/block/mmcblk0p13
+    wait /dev/block/mmcblk0p14
 on fs
+    mount_all fstab.qcom
+
     mkdir /tombstones/modem 0771 system system
     mkdir /tombstones/mdm 0771 system system
     mkdir /tombstones/lpass 0771 system system
     mkdir /firmware 0771 system system
-    symlink /data/tombstones /tombstones
-    
-    mount_all fstab.qcom
-    
     wait /dev/block/mmcblk0p1
     mount vfat /dev/block/mmcblk0p1 /firmware ro shortname=lower,uid=1000,gid=1000,dmask=227,fmask=337
     
