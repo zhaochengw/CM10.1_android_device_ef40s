@@ -1,0 +1,175 @@
+# Bins
+bin/mpdecision
+bin/battery_charging
+bin/cnd
+bin/geomagneticd
+bin/time_daemon
+bin/wiperiface_v01
+bin/skypd
+
+# Audio
+lib/libacdbloader.so
+lib/libacdbmapper.so
+lib/libaudcal.so
+lib/libaudioalsa.so
+lib/libaudioparsers.so
+
+# mmparser extended
+lib/libmmparser.so
+lib/libmmosal.so
+lib/libDivxDrm.so
+
+# Graphics
+bin/gpu_dcvsd
+lib/egl/eglsubAndroid.so
+lib/egl/libEGL_adreno200.so
+lib/egl/libGLESv1_CM_adreno200.so
+lib/egl/libGLESv2_adreno200.so
+lib/egl/libq3dtools_adreno200.so
+lib/egl/libplayback_adreno200.so
+lib/egl/libGLESv2S3D_adreno200.so
+lib/libC2D2.so
+lib/libc2d2_a3xx.so
+lib/libc2d2_z180.so
+lib/libgsl.so
+lib/libllvm-a3xx.so
+lib/libllvm-arm.so
+lib/libOpenCL.so
+lib/libOpenVG.so
+lib/libsc-a2xx.so
+lib/libsc-a3xx.so
+
+# Radio
+bin/netmgrd
+bin/ks
+bin/qcks
+bin/qmiproxy
+bin/qmuxd
+bin/rmt_storage
+bin/rild
+lib/libqmi.so
+lib/libqdp.so
+lib/libqmiservices.so
+lib/libqueue.so
+lib/libril.so
+lib/libreference-ril.so
+lib/libril-qc-qmi-1.so
+lib/libril-qcril-hook-oem.so
+lib/libdsutils.so
+lib/libdsi_netctrl.so
+lib/libidl.so
+lib/libnetmgr.so
+lib/libuca-ril.so
+lib/libuca-ril-qmi.so
+lib/libtime_remote_atom.so
+
+# GPS
+lib/liboncrpc.so
+#lib/libgps.utils.so
+#lib/libloc_adapter.so
+lib/libloc_api-rpc-qc.so
+#lib/libloc_eng.so
+lib/libcommondefs.so
+lib/librpc.so
+
+# Sensors
+lib/hw/sensors.msm8660.so
+lib/libmpl.so
+lib/libmlplatform.so
+lib/libmllite.so
+
+# Lights
+lib/hw/lights.msm8660.so
+
+# Camera
+lib/hw/camera.msm8660.so
+#lib/libchromatix_imx074_default_video.so
+#lib/libchromatix_imx074_preview.so
+#lib/libchromatix_imx074_zsl.so
+lib/libgemini.so
+lib/libmmipl.so
+lib/libmmjpeg.so
+lib/liboemcamera.so
+lib/libOlaEngine.so
+#lib/libcamera_client.so
+lib/libmmmpo.so
+lib/libmmstereo.so
+lib/libcp-proccmd.so
+lib/libdsucsdappif_apis_fusion.so
+lib/libpbmlib_fusion.so
+
+
+# General
+lib/libdiag.so
+
+# QC-OPT
+lib/libqc-opt.so
+
+#qseecomd
+lib/libdrmfs.so
+lib/libdrmtime.so
+lib/liballjoyn.so
+lib/libQSEEComAPI.so
+
+# misc
+lib/libCommandSvc.so
+lib/libdrmdiag.so
+#lib/libv8.so
+
+# CNE
+lib/libcneapiclient.so
+lib/libcneqmiutils.so
+lib/libcneutils.so
+lib/liboem_rapi.so
+lib/liboem_rapi_fusion.so
+lib/libqdi.so
+lib/libsky_rawdata.so
+lib/libskytestclient.so
+lib/libxml.so
+
+# Wi-Fi
+etc/wifi/nv_bcmdhd.txt
+etc/wifi/nvram_murata_B2_EF40S.txt
+etc/wifi/wpa_supplicant.conf
+vendor/firmware/fw_bcm4330_mfg_b2.bin
+vendor/firmware/fw_bcmdhd.bin
+vendor/firmware/fw_bcmdhd_apsta.bin
+vendor/firmware/fw_bcmdhd_p2p.bin
+
+# Firmware
+etc/firmware/a225_pfp.fw
+etc/firmware/a225_pm4.fw
+etc/firmware/a225p5_pm4.fw
+etc/firmware/a300_pfp.fw
+etc/firmware/a300_pm4.fw
+etc/firmware/cyttsp_8660_ffa.hex
+etc/firmware/cyttsp_8660_fluid_p2.hex
+etc/firmware/cyttsp_8660_fluid_p3.hex
+etc/firmware/dsps_fluid.b00
+etc/firmware/dsps_fluid.b01
+etc/firmware/dsps_fluid.b02
+etc/firmware/dsps_fluid.b03
+etc/firmware/dsps_fluid.mdt
+etc/firmware/leia_pfp_470.fw
+etc/firmware/leia_pm4_470.fw
+etc/firmware/vidc_1080p.fw
+etc/firmware/yamato_pfp.fw
+etc/firmware/yamato_pm4.fw
+
+# Thermald
+bin/thermald
+etc/thermald.conf
+lib/libdsm.so
+lib/libthermal_mitigation_fusion.so
+lib/libthermal_mitigation.so
+
+# NFC
+lib/hw/nfc.default.so
+vendor/firmware/libpn544_fw.so
+
+# vendor
+vendor/lib/drm/libdrmwvmplugin.so
+vendor/lib/libwvdrm_L3.so
+vendor/lib/libwvm.so
+vendor/lib/libWVStreamControlAPI_L3.so
+

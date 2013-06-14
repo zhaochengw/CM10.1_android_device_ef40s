@@ -1,0 +1,120 @@
+
+#
+# system.prop for IM-A810S
+#
+
+# Fields for custom RIL
+rild.libpath=/system/lib/libril-qc-qmi-1.so
+rild.libargs=-d /dev/smd0
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+ril.subscription.types=NV,RUIM
+DEVICE_PROVISIONED=1
+keyguard.no_require_sim=1
+debug.sf.hw=1
+debug.composition.type=dyn
+dev.pm.dyn_samplingrate=1
+debug.mdpcomp.maxlayer=3
+debug.hwc.dynThreshold=1.9
+debug.mdpcomp.logs=0
+debug.enabletr=true
+persist.sys.strictmode.disable=true
+ro.sf.lcd_density=320
+#
+# system props for the cne module
+#
+persist.cne.feature=1
+
+ro.hdmi.enable=true
+lpa.decode=false
+use.non-omx.mp3.decoder=true
+use.non-omx.aac.decode=true
+lpa.use-stagefright=true
+
+#system props for the MM modules
+
+media.stagefright.enable-player=true
+media.stagefright.enable-http=true
+media.stagefright.enable-fma2dp=false
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-scan=true
+mmp.enable.3g2=true
+
+#
+# system props for the data modules
+#
+ro.use_data_netmgrd=true
+
+#
+# system props for SD card emulation of emmc partition
+#
+ro.emmc.sdcard.partition=27
+
+#system props for time-services
+persist.timed.enable=true
+
+# System props for audio
+persist.audio.fluence.mode=endfire
+persist.audio.vr.enable=false
+
+#
+# system prop for opengles version
+#
+# 131072 is decimal for 0x20000 to report version 2
+ro.opengles.version=131072
+
+#
+# system prop for Bluetooth Auto connect for remote initated connections
+#
+ro.bluetooth.remote.autoconnect=true
+
+#
+# system prop for Bluetooth FTP profile
+#
+ro.qualcomm.bluetooth.ftp=true
+#
+# system prop for requesting Master role in incoming Bluetooth connection.
+#
+ro.bluetooth.request.master=true
+# system property for Bluetooth discoverability time out in seconds
+# 0: Always discoverable
+#debug.bt.discoverable_time=0
+
+# System property for cabl
+ro.qualcomm.cabl=1
+
+# System props for telephony
+# System prop to turn on CdmaLTEPhone always
+ro.telephony.ril_class=SkyQualcommUiccRIL
+ro.telephony.default_network=9
+telephony.lteOnGsmDevice=1
+ro.telephony.ril.v3=qcomuiccstack
+#
+# System prop for sending transmit power request to RIL during WiFi hotspot on/off
+#
+ro.ril.transmitpower=true
+
+#
+# Simulate sdcard on /data/media
+#
+persist.fuse_sdcard=false
+ro.config.vc_call_vol_steps=3
+#
+# System prop for using landscape preview layout in camera
+#
+debug.camera.landscape=true
+
+# Make rmt_storage start at init
+ro.boot.emmc=true
+
+# USB
+persist.sys.usb.config=mass_storage,adb
+ro.vold.umsdirtyratio=20

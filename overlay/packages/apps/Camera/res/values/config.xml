@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="wantsFocusModes">true</bool>
+    <bool name="needsEarlyVideoSize">true</bool>
+    <bool name="usePreferredPreviewSizeForEffects">true</bool>
+    <bool name="ignorePreferredPreviewSizeForVideo">true</bool>
+    <bool name="resetVideoRotationParameter">true</bool>
+</resources>
